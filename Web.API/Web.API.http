@@ -1,0 +1,13 @@
+@Web.API_HostAddress = http://localhost:5058
+
+###
+GET {{Web.API_HostAddress}}/test-IOptions
+Accept: application/json
+
+###
+GET {{Web.API_HostAddress}}/test-IOptionsMonitor
+Accept: application/json
+
+###
+GET {{Web.API_HostAddress}}/test-IOptionsSnapshot
+Accept: application/json
