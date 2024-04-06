@@ -1,6 +1,7 @@
 using Web.API.Configurations;
 
 namespace Web.API;
+
 public class AppSettings
 {
     public string DbConnection { get; init; }
